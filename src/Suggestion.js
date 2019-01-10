@@ -10,13 +10,17 @@ class Suggestion extends Component {
   }
 
   generateList(array){
-    let newList = array.map((city) => <li onClick={this.props.insertSuggestion(city)}>{city}</li>);
-    return newList;
+    let newList = array.map((elem, index) => {
+      let link = "/location/" + elem.woeid;
+      return <Link to={link} key={index} className="suggestion"> {elem.title} </Link>;});
+    console.log(newList);
+    if (array[0] != ''){
+    return newList;}
   }
 
   render() {
     return(
-      <ul>
+      <ul className='suggestionField'>
         {this.generateList(this.props.suggestionArray)}
       </ul>
     )

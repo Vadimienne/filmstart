@@ -8,8 +8,10 @@
     "react-dom": "^16.7.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.2",
-    "webpack": "^4.19.1"
+    "react-scripts": "^2.1.3",
+    "react-yandex-maps": "^3.0.2",
+    "webpack": "^4.19.1",
+    "yandex-map-react": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

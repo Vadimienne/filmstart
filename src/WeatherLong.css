@@ -1,0 +1,12 @@
+.weatherBlock{
+  width:200px;
+  border: 1px solid #0D0061;
+  border-radius: 15px;
+  margin:10px;
+  padding: 10px;
+}
+
+img{
+  height:100px;
+  width:100px;
+}

@@ -55,3 +55,9 @@ render() {
     </div>
   );
 }
+
+
+
+<YMap center={[this.state.lon, this.state.lat]} zoom={10}>
+  <Marker lat={this.state.lat} lon={this.state.lon} />
+</YMap>

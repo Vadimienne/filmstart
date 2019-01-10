@@ -1,0 +1,75 @@
+.inputField{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+
+.suggestionField{
+
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+input {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    outline-width: 0;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+a:visited{
+  color:black;
+}
+
+
+.suggestion {
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin:5px;
+  padding:4px;
+  border: 2px solid #0D0061;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  width:auto;
+}
+
+.suggestion:hover{
+  background-color:grey;
+}
+
+.localWeather{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+
+
+
+}
+
+.cls{
+  width:200px;
+  border: 1px solid #0D0061;
+  border-radius: 15px;
+  margin:10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main_module{
+  width:100%;
+  display:block;
+  justify-content: center;
+}
